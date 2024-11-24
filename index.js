@@ -16,7 +16,6 @@ app.get("/ping", (req, res) => {
   return res.send("PONG!");
 });
 
-console.log("lll");
 // app.get("/api/scrap/ig", async (req, res) => {
 //   const { url, test } = req.query;
 
