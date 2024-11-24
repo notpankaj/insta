@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
   res.send("yes");
 });
 app.get("/ping", (req, res) => {
-  return res.send("PONG!");
+  return res.send("PONGxxx!");
 });
 
 // app.get("/api/scrap/ig", async (req, res) => {
